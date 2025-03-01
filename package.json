@@ -1,0 +1,18 @@
+{
+    "name": "neuro-symbolic-mortgage-chatbot",
+    "version": "1.0.0",
+    "description": "A demo of a neuro-symbolic mortgage chatbot running in the browser",
+    "scripts": {
+      "start": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "preact": "^10.19.3"
+      // In a real setup, add: "onnxruntime-web": "^1.18.0"
+    },
+    "devDependencies": {
+      "vite": "^5.0.11",
+      "@preact/preset-vite": "^2.8.1"
+    }
+  }
